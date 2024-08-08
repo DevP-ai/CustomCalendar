@@ -32,6 +32,7 @@
                 android:background="@color/black"/>
 
             <ImageView
+                android:id="@+id/monthNavigationLeft"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -40,6 +41,7 @@
                 android:src="@drawable/ic_back_arrow_left"/>
 
             <ImageView
+                android:id="@+id/monthNavigationRight"
                 android:layout_width="36dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -50,6 +52,7 @@
         </RelativeLayout>
 
         <TextView
+            android:id="@+id/monthYear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
